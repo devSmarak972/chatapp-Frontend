@@ -174,14 +174,14 @@ const Container = styled.div`
     .sended {
       justify-content: flex-end;
       .content {
-        background-color: #4f04ff21;
+        background-color: #54e86dc2;
       }
     }
     .recieved {
       justify-content: flex-start;
       .content {
-        background-color: #9900ff20;
-      }
+    background-color: rgb(73 89 235 / 84%);
+        }
     }
   }
 `;
