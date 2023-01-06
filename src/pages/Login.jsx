@@ -111,7 +111,7 @@ const FormContainer = styled.div`
       height: 5rem;
     }
     h1 {
-      color: white;
+      color: rgb(19 19 36);
       text-transform: uppercase;
     }
   }
@@ -152,7 +152,7 @@ const FormContainer = styled.div`
     }
   }
   span {
-    color: white;
+    color: rgb(19 19 36);
     text-transform: uppercase;
     a {
       color: #4e0eff;
