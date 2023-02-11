@@ -111,12 +111,13 @@ export default function ChatContainer({ currentChat, socket }) {
     </Container>
   );
 }
-
+//change here for background
 const Container = styled.div`
   display: grid;
   grid-template-rows: 10% 80% 10%;
   gap: 0.1rem;
   overflow: hidden;
+  background-color:lightblue;
   @media screen and (min-width: 720px) and (max-width: 1080px) {
     grid-template-rows: 15% 70% 15%;
   }
@@ -165,7 +166,7 @@ const Container = styled.div`
         padding: 1rem;
         font-size: 1.1rem;
         border-radius: 1rem;
-        color: #d1d1d1;
+        color: white;
         @media screen and (min-width: 720px) and (max-width: 1080px) {
           max-width: 70%;
         }
